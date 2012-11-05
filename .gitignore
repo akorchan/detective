@@ -1,0 +1,6 @@
+*.iml       # ignore files  *.iml
+*.ipr       # ignore files  *.ipr
+*.iws       # ignore files  *.iws
+target/     # ignore directory and all files inside build/
+*~          # ignore files  *.~
+.idea/      # ignore directory and all files inside .idea/
