@@ -5,10 +5,10 @@ Training project using GWT, Spring, Hibernate, Maven, etc.
 ===
 
 ---
-HOW TO:
----
-[Russian version]: http://git-scm.com/book/ru/
-[English version]: http://git-scm.com/book/
+# How To:
+
+[russian]: http://git-scm.com/book/ru/
+[Pro Git]: http://git-scm.com/book/
 [GWT first run]: http://antonkirillov.wordpress.com/2011/03/22/creating-and-running-gwt-project-using-maven-and-intellij-idea-10/
 
 How to create and run project with Idea
@@ -37,12 +37,11 @@ How to create and run project with Idea
  * Run application in debug mode by 'Run' -> 'Debug...' and select 'Detective' configuration.
  * You will need 'GWT Development plugin', so install it.
  * Now you can run application in Chrome bowser and debug it.
+15. More info about first run go to [GWT first run]
 
 How to add jar file to mvn local repository
 ---
 1. Download jar file
 2. Run command:mvn install:install-file -Dfile=spring4gwt-0.0.1.jar -DgroupId=com.google.code -DartifactId=spring4gwt -Dversion=0.0.1 -Dpackaging=jar
 
-Info about how to work with Git you can read in here in [English version] or in [Russian version]
-
-More info about first run go to [GWT first run]
+Info about how to work with Git you can read in book [Pro Git] \(you can also read it on [russian]\)
