@@ -23,12 +23,8 @@ How to create and run project with Idea
 8. Create new MySQL user with name 'root' and password '1'
 9. Create new scheme in MySQL with name 'detective'
 10. Install Intellij Idea (our case v.12 Ultimate)
-11. Go to the folder, where you want to create project.
- * Run command: mvn archetype:generate -DarchetypeGroupId=org.codehaus.mojo -DarchetypeArtifactId=gwt-maven-plugin -DarchetypeVersion=2.5.0-rc2 -DgroupId=com.training.detective -DartifactId=Detective
- * Answer all asked question by default instead of 'module' which should be changed to 'Detective'.
- * Go to created directory 'Detective' and remove all stuff instead of 'src' folder, 'target' folder and pom.xml file.
- * Run command:	mvn idea:idea
-12. Run Idea. Go to 'File' -> Open. Choose pom.xml file from newly created 'Detective' project.
+11. Go to the folder, where you want to clone project from git repository and run command 'git clone https://github.com/akorchan/Detective.git'.
+12. Run Idea. Go to 'File' -> Open. Choose pom.xml file from newly cloned 'Detective' project.
 13. Go to 'Run' -> "Edit configurations". Create new 'GWT Configuration' and select module 'Detective' and Chrome as default browser. Click 'Apply'.
  * Run application in debug mode by 'Run' -> 'Debug...' and select 'Detective' configuration.
  * You will need 'GWT Development plugin', so install it.
