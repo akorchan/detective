@@ -45,5 +45,3 @@ How to add jar file to mvn local repository
 2. Run command:mvn install:install-file -Dfile=spring4gwt-0.0.1.jar -DgroupId=com.google.code -DartifactId=spring4gwt -Dversion=0.0.1 -Dpackaging=jar
 
 Info about how to work with Git you can read in book [Pro Git] \(you can also read it on [russian]\)
-
-asd
