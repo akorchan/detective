@@ -1,11 +1,7 @@
-Detective
+Boilerplate application for GWT, Spring, Hibernate stack.
 ==========
 
-Training project using GWT, Spring, Hibernate, Maven, etc.
-===
-
----
-# How To:
+# FAQ
 
 [russian]: http://git-scm.com/book/ru/
 [Pro Git]: http://git-scm.com/book/
@@ -25,14 +21,14 @@ How to create and run project with Idea
 9. Create new scheme in MySQL with name 'detective'
 10. Install Intellij Idea (our case v.12 Ultimate)
 11. Download [spring4gwt] jar and add it to maven repository (see below how to do it)
-12. Go to the folder, where you want to clone project from git repository and run command 'git clone https://github.com/akorchan/Detective.git'.
-13. Run Idea. Go to 'File' -> Open. Choose pom.xml file from newly cloned 'Detective' project.
-14. Go to 'Run' -> "Edit configurations". Create new 'GWT Configuration' and select module 'Detective' and Chrome as default browser. Click 'Apply'.
- * Run application in debug mode by 'Run' -> 'Debug...' and select 'Detective' configuration.
+12. Go to the folder, where you want to clone project from git repository and run command 'git clone https://github.com/akorchan/detective.git'.
+13. Run Idea. Go to 'File' -> Open. Choose pom.xml file from newly cloned 'detective' project.
+14. Go to 'Run' -> "Edit configurations". Create new 'GWT Configuration' and select module 'detective' and Chrome as default browser. Click 'Apply'.
+ * Run application in debug mode by 'Run' -> 'Debug...' and select 'detective' configuration.
  * You will need 'GWT Development plugin', so install it.
  * Now you can run application in Chrome browser and debug it.
-15. Go to 'Run' -> "Edit configurations". Create new 'Tomcat' -> 'local' and select module 'Detective' and Chrome as default browser. Click 'Apply'.
- * Run application in debug mode by 'Run' -> 'Debug...' and select 'Detective' configuration.
+15. Go to 'Run' -> "Edit configurations". Create new 'Tomcat' -> 'local' and select module 'detective' and Chrome as default browser. Click 'Apply'.
+ * Run application in debug mode by 'Run' -> 'Debug...' and select 'detective' configuration.
  * You will need 'GWT Development plugin', so install it.
  * Now you can run application in Chrome browser and debug it.
 16. More info about first run go to [GWT first run]
